@@ -4,11 +4,11 @@
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "techconf_SERVICEBUS": "Endpoint=sb://techconf.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Jt6/lmRItFoZniHhkYDDvt2QG/1esjiuC+ASbKMO7II=",
     "techconfstoragelab3_STORAGE": "DefaultEndpointsProtocol=https;AccountName=techconfstoragelab3;AccountKey=5R3VzR8SoMYvn/9EpykMKS8HfX8FvMGgrfz0opcbfu/R4ZFQQWFz+qKp2BTvWzNUdI5grbdZdeHv+ASteYiBOA==",
-    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=techconfstoragelab3;AccountKey=5R3VzR8SoMYvn/9EpykMKS8HfX8FvMGgrfz0opcbfu/R4ZFQQWFz+qKp2BTvWzNUdI5grbdZdeHv+ASteYiBOA==",
     "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=techconfstoragelab3;AccountKey=5R3VzR8SoMYvn/9EpykMKS8HfX8FvMGgrfz0opcbfu/R4ZFQQWFz+qKp2BTvWzNUdI5grbdZdeHv+ASteYiBOA==",
-    "WEBSITE_CONTENTSHARE": "techconf-function-app-lab-33074307fb902",
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "da144ef3-8507-4eef-83b6-97c0746d9a33"
+    "WEBSITE_CONTENTSHARE": "techconf-function-app-lab-3e64b52807fd2",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "54bea0d5-5929-4810-8756-303aee3069aa"
   },
   "ConnectionStrings": {}
 }

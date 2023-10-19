@@ -14,4 +14,6 @@ queue_client = QueueClient.from_connection_string(app.config.get('SERVICE_BUS_CO
 
 db = SQLAlchemy(app)
 
+
+
 from . import routes

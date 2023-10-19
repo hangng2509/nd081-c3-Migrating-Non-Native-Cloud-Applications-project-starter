@@ -13,7 +13,7 @@ class BaseConfig:
     SECRET_KEY = 'LWd2tzlprdGHCIPHTd4tp5SBFgDszm'
     SERVICE_BUS_CONNECTION_STRING ='Endpoint=sb://servicebus20231018.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Rb+OLRJvECcyJFB0mo7TxNI47RPq04xEw+ASbFRF/yI=' #TODO: Update value
     SERVICE_BUS_QUEUE_NAME ='notificationqueue'
-
+    SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI') or DB_URL
 class DevelopmentConfig(BaseConfig):
     DEBUG = True
 
