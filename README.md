@@ -63,9 +63,24 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |     |              |
-| *Azure Service Bus*   |         |              |
-| ...                   |         |              |
-
+| *Virtual Machines* |  *Virtual Machines Dv2 Series*  | *$3.40* |
+| *Azure Database for PostgreSQL*   | *Azure Database for PostgreSQL Single Server Basic - Compute Gen5* | *$3.26* |
+| *Azure Storage* | *General Block Blob* | *$0.67* |
+| *Event Hubs* | *Event Hubs*   | *$0.21* |
+| *Virtual Network* | *IP Addresses*    | *$0.19* |
+| *Azure Kubernetes Service* |  *Azure Kubernetes Service*   | *$0.09*|
+| *Azure Container Registry* | *Container Registry*    | *$0.02* |
 ## Architecture Explanation
-This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
+- The Azure Web App allows for the scalable hosting of the frontend, ensuring the application can handle increased traffic.
+
+- Azure Functions can be used to handle backend processing asynchronously. For example, they can process user requests for data, handle background tasks, or respond to events, providing responsiveness and efficient resource utilization.
+
+- Azure Functions reduce the operational overhead. They automatically scale based on the number of incoming events, and you only pay for the compute resources used during execution.
+
+- By using both Azure Web App and Azure Functions, you have a flexible architecture that can be adapted to various application requirements and can be extended with additional services as needed.
+
+Event-Driven: Azure Functions work well for event-driven architectures, enabling you to handle different types of events efficiently.
+
+- Separating frontend (Web App) and backend (Functions) allows for easier maintenance, upgrades, and debugging.
+
+- This architecture allows you to optimize costs by paying only for actual usage and efficiently using resources based on the demands of your application.
