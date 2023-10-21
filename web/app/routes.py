@@ -65,12 +65,9 @@ def notification():
 
         try:
             db.session.add(notification)
-            attendees = Attendee.query.all()
-            notification.completed_date = datetime.utcnow()
-            notification.status = 'Notified {} attendees'.format(len(attendees))
             db.session.commit()
             # Refactor the post logic using servicebus
-            queue_client.send(Message('{}'.format(notification.message)))
+            queue_client.send(Message('{}'.format(notification.id)))
 
             return redirect('/Notifications')
         except :
