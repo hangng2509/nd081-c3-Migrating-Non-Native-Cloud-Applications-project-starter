@@ -79,8 +79,6 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 - By using both Azure Web App and Azure Functions, you have a flexible architecture that can be adapted to various application requirements and can be extended with additional services as needed.
 
-Event-Driven: Azure Functions work well for event-driven architectures, enabling you to handle different types of events efficiently.
+- Event-Driven: Azure Functions work well for event-driven architectures, enabling you to handle different types of events efficiently.
 
 - Separating frontend (Web App) and backend (Functions) allows for easier maintenance, upgrades, and debugging.
-
-- This architecture allows you to optimize costs by paying only for actual usage and efficiently using resources based on the demands of your application.
